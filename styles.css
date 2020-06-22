@@ -1,0 +1,133 @@
+html, body {
+/*	background: #fea !important; */
+}
+
+body .mainBase {
+    margin-bottom: 1rem !important;
+    font-size: 1rem !important;
+    line-height: 1.7em !important;
+    vertical-align: baseline !important;
+    display: block !important;
+    margin-block-start: 1em !important;
+    margin-block-end: 1em !important;
+    margin-inline-start: 0px !important;
+    margin-inline-end: 0px !important;
+    word-wrap: break-word !important;
+    text-align: justify !important;
+}
+
+body .mainBase, body, h1, h2, h3, h4, h5, h6, p {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif !important;
+    	color: #2a2a2a !important;
+}
+
+#pagetitle { /* chapter/page title */
+    font: 1.8rem "Palatino Linotype", "Book Antiqua", Palatino, serif !important;
+    font-weight: bold !important;
+    border-bottom: 0px !important;
+    padding-bottom: 0.1em !important;
+    padding-top: 0em !important;
+}
+
+.abstractMinus, .abstractPlus { /* remove [-]/[+] symbol in abstract */
+	padding-left: 0px !important;
+	background: none !important;
+}
+
+#readPanel .keywords { 
+    margin-bottom: 2rem !important;
+    /*border-bottom: 1px solid rgb(207, 213, 228) !important;*/
+    font-size: 0.85rem !important;
+    padding-bottom: 2rem !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-align: left !important;
+}
+
+h1, h2, h3 {
+	font-weight: bold !important;
+}
+
+#tocHeader h1 { /* header of table of contents */
+	line-height: 0px !important;
+    	border-bottom: 0px !important;
+}
+
+h1, .mainBase h1 { /* main section headers */
+    font-size: 1.4rem !important;
+    border-bottom: 1px solid #CFD5E4 !important;
+    padding-top: 1em !important;
+    padding-bottom: 0.35em !important;
+    line-height: 1.4em !important;
+}
+
+h2, .mainBase h2 { /* sub-section headers */
+    font-size: 1.2rem !important;
+    padding-top: 0.4em !important;
+    padding-bottom: 0.2em !important;
+    line-height: 1.2em !important;
+}
+
+h3, .mainBase h3 { /* sub-sub-section headers */
+    font-size: 1.1rem !important;
+    padding-top: 0.2em !important;
+    line-height: 1.1em !important;
+}
+
+h4, .mainBase h4, h5, .mainBase h5 { /* sub-sub-sub-section headers */
+    font-size: 1.05rem !important;
+}
+
+.author, .author h3, h3.author {
+	font-weight: normal !important;
+	font-size: 1rem !important;
+}
+
+span.pageNumber { /* page numbers: moved to float on the side, rather than inline */
+    color: #2a2a2a !important;
+    font-weight: bold !important;
+    float: right !important;
+    margin-right: -11% !important;
+    font-size: 0.95rem !important;
+}
+
+.mainBase p { /* main text */
+    margin-bottom: 1rem !important;
+    font-size: 1rem !important;
+    line-height: 1.7em !important;
+    vertical-align: baseline !important;
+    display: block !important;
+    margin-block-start: 1em !important;
+    margin-block-end: 1em !important;
+    margin-inline-start: 0px !important;
+    margin-inline-end: 0px !important;
+    word-wrap: break-word !important;
+    text-align: justify !important;
+}
+
+.note p { /* end notes */
+    font-size: 0.85rem !important;
+}
+
+sup {
+    font-size: 0.825rem !important; /* this is mainly to avoid large superscripts in headings */
+}
+
+.div1 a:link, .div1 a:visited, .div1 a:active, .keywords a:link, .keywords a:visited, .keywords a:active, .note a:link, .note a:visited, .note a:active {
+    color: #2f5f7f !important;
+}
+
+/* highlight page-break on hover, kinda ugly though -- maybe change to double click*/
+/*
+p:hover .page-number-link {
+    border-left: 2px solid rgb(207, 213, 228)!important;
+    content: " " !important;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    margin-left: -3px;
+    position: absolute;
+}
+p:hover .pageNumber {
+    color: rgb(200, 206, 221) !important;
+}*/
