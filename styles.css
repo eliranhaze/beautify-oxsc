@@ -114,7 +114,7 @@ sup {
     font-size: 0.825rem !important; /* this is mainly to avoid large superscripts in headings */
 }
 
-.div1 a:link, .div1 a:visited, .div1 a:active, .keywords a:link, .keywords a:visited, .keywords a:active, .note a:link, .note a:visited, .note a:active {
+.div1 a:link, .div1 a:visited, .div1 a:active, .keywords a:link, .keywords a:visited, .keywords a:active, .note a:link, .note a:visited, .note a:active { /* link coloring */
     color: #2f5f7f !important;
 }
 
