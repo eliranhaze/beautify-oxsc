@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Beautify Oxford Scholarship",
-  "version": "0.1",
+  "version": "0.1.1",
 
   "description": "Make Oxford Scholarship pages beautifully readable.",
   "icons": { "16": "icon-16.png",
