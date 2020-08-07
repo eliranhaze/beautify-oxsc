@@ -11,7 +11,7 @@
   "content_scripts": [{
     "css": ["styles.css"],
     "matches": ["*://*/view/*"],
-    "include_globs": ["*oxfordscholarship*"]
+    "include_globs": ["*oxford*scholarship*"]
   }]
  
 }
