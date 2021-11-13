@@ -106,6 +106,24 @@ span.pageNumber { /* page numbers: moved to float on the side, rather than inlin
     text-align: justify !important;
 }
 
+.mainBase th p {
+    font-weight: bold !important;
+    line-height: 1.2em !important;
+    text-align: left !important;
+    margin-block: 0 !important;
+}
+
+.mainBase td p {
+    font-size: 0.9rem !important;
+    line-height: 1.2em !important;
+    text-align: left !important;
+    margin-block: 0 !important;
+}
+
+.subtitle p {
+    text-align: left !important;
+}
+
 .note p { /* end notes */
     font-size: 0.85rem !important;
 }
