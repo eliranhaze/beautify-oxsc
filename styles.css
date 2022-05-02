@@ -17,12 +17,18 @@ body .mainBase {
 }
 
 body .mainBase, body, h1, h2, h3, h4, h5, h6, p {
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif !important;
+	font-family: Palatino, serif !important;
     	color: #2a2a2a !important;
 }
 
+#doi {
+    font-family: inherit !important;
+    font-size: 0.95rem !important;
+}
+
 #pagetitle { /* chapter/page title */
-    font: 1.8rem "Palatino Linotype", "Book Antiqua", Palatino, serif !important;
+	font-family: Palatino, serif !important;
+    font-size: 1.8rem !important;
     font-weight: bold !important;
     border-bottom: 0px !important;
     padding-bottom: 0.1em !important;
@@ -82,6 +88,24 @@ h4, .mainBase h4, h5, .mainBase h5 { /* sub-sub-sub-section headers */
 .author, .author h3, h3.author {
 	font-weight: normal !important;
 	font-size: 1rem !important;
+}
+
+.contentItem .author {
+    font-size: 0.9rem !important;
+}
+
+.contentItem .entry {
+    line-height: 1.4em !important;
+    font-weight: normal !important;
+}
+
+.contentItem .bookPartHeading {
+    color: #633d5d !important;
+    font-weight: normal !important;
+}
+
+a.title {
+	font-family: Palatino, serif !important;
 }
 
 span.pageNumber { /* page numbers: moved to float on the side, rather than inline */
